@@ -13,5 +13,5 @@ $finder = new  CourseFinder($client, $crawler);
 $courses = $finder->finder('/cursos-online-programacao/php');
 
 foreach ($courses as $course) {
-    echo $course . PHP_EOL;
+    showCourseName($course);
 }

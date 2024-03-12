@@ -12,7 +12,8 @@
   "autoload": {
     "psr-4": {
       "Raider\\CourseFinder\\": "src/"
-    }
+    },
+    "files": ["./functions.php"]
   },
   "autoload-dev": {
     "psr-4": {
